@@ -124,7 +124,7 @@ Baby.prototype.play = function(){return `Playing with ${this.favoriteToy}`}
   In your own words explain the four principles for the "this" keyword below:
   1. [window binding]   In the globle scope, 'this' points to the window object.
   2. [implicit binding] when calling a function defined within an object by name.function(), 'this' is referencing the object on the left of the dot.
-  3. [new binding]      In a constructor function. 'this' refer to the object the function instanciated.
+  3. [new binding]      In a constructor function. 'this' refer to the object the function will instanciate.
   4. [explicit binding] when using call/apply/bind method, 'this' is defined explicitly as keyword where call, apply or bind method is applied.
 */
 
